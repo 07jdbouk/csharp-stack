@@ -1,0 +1,15 @@
+/Users/yeet/_Documents/code/csharp/stack/bin/Debug/net5.0/stack.deps.json
+/Users/yeet/_Documents/code/csharp/stack/bin/Debug/net5.0/stack.runtimeconfig.json
+/Users/yeet/_Documents/code/csharp/stack/bin/Debug/net5.0/stack.runtimeconfig.dev.json
+/Users/yeet/_Documents/code/csharp/stack/bin/Debug/net5.0/stack.dll
+/Users/yeet/_Documents/code/csharp/stack/bin/Debug/net5.0/ref/stack.dll
+/Users/yeet/_Documents/code/csharp/stack/bin/Debug/net5.0/stack.pdb
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.csprojAssemblyReference.cache
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.AssemblyInfoInputs.cache
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.AssemblyInfo.cs
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.csproj.CoreCompileInputs.cache
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.dll
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/ref/stack.dll
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.pdb
+/Users/yeet/_Documents/code/csharp/stack/obj/Debug/net5.0/stack.genruntimeconfig.cache
