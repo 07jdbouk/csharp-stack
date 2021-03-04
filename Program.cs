@@ -30,7 +30,9 @@ namespace stack
 
             // Creates front pointer
             front = length;
+            // Console.WriteLine(Convert.ToString(length));
         }
+
         public bool push(string item) 
         {
             // If the stack is full, the item will not be pushed, otherwise it will
@@ -91,7 +93,7 @@ namespace stack
         public bool isEmpty() 
         {
             // If the pointer points to the end of the array, the stack is empty
-            if (front >= 8)
+            if (front >= stack.Length)
                 return true;
 
             return false;
@@ -140,10 +142,27 @@ namespace stack
         {
             Console.WriteLine("Enter a sentence you would like to reverse: ");
             string sentence = Console.ReadLine();
-            int length = sentence.Length;
 
+            string[] temp = sentence.Split(' ');
 
+            int length = temp.Length;
+            Stack stack = new Stack(length);
 
+            foreach (string str in temp) {
+                stack.push(str);
+                // Console.WriteLine(str);
+            }
+
+            // stack.pop();
+            // stack.peek();
+
+            sentence = "";
+
+            for (int i = 0; i <= length; i++) {
+                sentence += stack.pop() + " ";
+            }
+
+            Console.WriteLine($"The reversed sentence is\n{sentence}");
         }
     }
 }
