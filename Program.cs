@@ -83,6 +83,19 @@ namespace stack
             return null;
         }
 
+        public string peek()
+        {
+            // If stack not empty, display item at top of stack, else don't
+
+            if (!isEmpty()) {
+                Console.WriteLine(stack[front]);
+                return stack[front];
+            }
+
+            Console.WriteLine("Could not peek, stack is empty!");
+            return null;
+        }
+
         public bool isFull() 
         {
             // If the front pointer points to the front of the array, the stack is full
