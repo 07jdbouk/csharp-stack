@@ -10,17 +10,27 @@ namespace stack
             // TestStack test = new TestStack();
 
             // test.testStack();
+           
+            ReverseSentence sentence = new ReverseSentence();
        }
     }
 
     class Stack 
     {
         // Create array to form base of stack
-        private string[] stack = new string[8];
+        private string[] stack;
 
         // Creates front pointer
-        private int front = 8;
+        private int front;
 
+        public Stack(int length) 
+        {
+            // Create array to form base of stack
+            stack = new string[length];
+
+            // Creates front pointer
+            front = length;
+        }
         public bool push(string item) 
         {
             // If the stack is full, the item will not be pushed, otherwise it will
@@ -93,7 +103,7 @@ namespace stack
         public void testStack() 
         {
             // Create new instance of Stack
-            Stack st = new Stack();
+            Stack st = new Stack(8);
 
             st.push("pog");
             st.push("pog");
@@ -126,9 +136,14 @@ namespace stack
 
     class ReverseSentence 
     {
-        public void main() 
+        public ReverseSentence() 
         {
-            Stack st = new Stack();    
+            Console.WriteLine("Enter a sentence you would like to reverse: ");
+            string sentence = Console.ReadLine();
+            int length = sentence.Length;
+
+
+
         }
     }
 }
