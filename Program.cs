@@ -6,38 +6,11 @@ namespace stack
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            
-            // Create new instance of Stack
-            Stack st = new Stack();
+            // Console.WriteLine("Hello World!");
+            // TestStack test = new TestStack();
 
-            st.push("pog");
-            st.push("pog");
-            st.push("pog");
-            st.push("pog");
-            st.push("pog");
-            st.push("pog");
-            st.push("pog");
-            st.push("pog");
-
-            // This will not be pushed, as the stack is full
-            st.push("pog");
-
-            st.pop();
-            st.pop();
-            st.pop();
-            st.pop();
-            st.pop();
-            st.pop();
-            st.pop();
-            st.pop();
-
-            // This will not work, as the stack is empty
-            st.pop();
-
-            st.push("cool");
-            st.pop();
-        }
+            // test.testStack();
+       }
     }
 
     class Stack 
@@ -112,6 +85,50 @@ namespace stack
                 return true;
 
             return false;
+        }
+    }
+
+    class TestStack
+    {
+        public void testStack() 
+        {
+            // Create new instance of Stack
+            Stack st = new Stack();
+
+            st.push("pog");
+            st.push("pog");
+            st.push("pog");
+            st.push("pog");
+            st.push("pog");
+            st.push("pog");
+            st.push("pog");
+            st.push("pog");
+
+            // This will not be pushed, as the stack is full
+            st.push("pog");
+
+            st.pop();
+            st.pop();
+            st.pop();
+            st.pop();
+            st.pop();
+            st.pop();
+            st.pop();
+            st.pop();
+
+            // This will not work, as the stack is empty
+            st.pop();
+
+            st.push("cool");
+            st.pop();
+        }
+    }
+
+    class ReverseSentence 
+    {
+        public void main() 
+        {
+            Stack st = new Stack();    
         }
     }
 }
